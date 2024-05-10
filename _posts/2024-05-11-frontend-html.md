@@ -49,7 +49,7 @@ HTML에서 '<body>'를 구성하는 tag(태그) 중에는 인라인 태그와 �
 ```
 
 ![Desktop View](assets/img/html/div&span.png){: width="400" height="300" .normal}
-
+<img src="assets/img/html/div&span.png" width="400" height="300"/>
 > '<div>' 태그는 다음 줄에 다른 태그로 입력을 하게 되면 다음 줄에 출력이 되고, '<span>' 태그는 다음 줄에 입력을 해도 옆으로 이어지는 특징을 가지고 있다.
 {: .prompt-info }
 
