@@ -49,9 +49,10 @@ HTML에서 '<body>'를 구성하는 tag(태그) 중에는 인라인 태그와 �
 ---
 ```
 
-![Desktop View](assets/img/html/div&span.png){: width="400" height="300" .normal}
+![Desktop View](assets/img/html/div&span.png){: width="400" height="300" .w-75 .normal}
 
-> '<div>' 태그는 다음 줄에 다른 태그로 입력을 하게 되면 다음 줄에 출력이 되고, '<span>' 태그는 다음 줄에 입력을 해도 옆으로 이어지는 특징을 가지고 있다.
+
+> div 태그는 다음 줄에 다른 태그로 입력을 하게 되면 다음 줄에 출력이 되고, span 태그는 다음 줄에 입력을 해도 옆으로 이어지는 특징을 가지고 있다.
 {: .prompt-info }
 
 
@@ -75,7 +76,7 @@ HTML에서 '<body>'를 구성하는 tag(태그) 중에는 인라인 태그와 �
 | ...                   | ...                  |
 
 
-### 레이아웃(layout) 태그 - 문서 구조
+## 레이아웃(layout) 태그 - 문서 구조
 
 '<body>'를 구성할 때 '<div>' 태그를 자주 이용하지만 지나치게 이용해서 '<div>' 태그가 계속 깊어지게 되면 어디가 어딘지 파악하기가 굉장히 어렵다. 특히 협업을 할 때, 다른 개발자가 그 코드를 파악해야 하는 경우에는 더욱 그렇다.
 
@@ -92,3 +93,58 @@ HTML에서 '<body>'를 구성하는 tag(태그) 중에는 인라인 태그와 �
 
 
 ![Desktop View](assets/img/html/layout.png){: width="500" height="300" .w-75 .normal}
+
+div 태그를 무작정 쓰기 보다는 레이아웃(layout) 태그들을 잘 써서 어디가 어디인지 잘 나눠주는 연습을 하는 것이 중요하다.
+
+
+## Self-Closing 태그
+
+앞서 설명한 태그들을 보면 '<div></div>', '<span></span>'와 같이 앞에서 태그를 여는 부분과 뒤에서 닫는 부분으로 이루어져 있는데, 그와 반대로 self-closig 태그는 그 안에 다른 컨텐츠가 들어올 수 없는 태그이다.
+
+예시 중 하나로 '<br>' 줄 바꿈 태그가 있다.
+
+
+```html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--div 태그-->
+    <div>안녕하세요. 반갑습니다.</div>
+
+    <!--div 태그 안에서 줄 바꿈-->
+    <div>안녕하세요. 
+        반갑습니다.</div>
+    
+    <!--div 태그 안에 br 태그 넣기-->
+    <div>안녕하세요.<br>반갑습니다.</div>
+
+</body>
+</html>
+---
+```
+
+![Desktop View](assets/img/html/br.png){: width="400" height="300" .w-75 .normal}
+
+
+> div 태그 안에서는 줄 바꿈을 해도 한 줄로 출력이 되므로 줄을 바꾸기 위해서 br 태그를 써야 한다.
+{: .prompt-info }
+
+
+|      태그      |         쓰임            |
+| :---- -------: | :--------------------: |
+| <br>           | 줄 바꿈                 |
+| <img>          | 이미지                  |
+| <input>        | 입력창                  |
+| <link>         | 외부 리소스             |
+| <col>          | 테이블 컬럼 정의         |
+| <embed>        | 오디오나 비디오 임베딩   |
+| <source>       | 미디어 원본 명시         |
+| <track>        | <video> 태그 내부 자막   |
+| <wbr>          | 줄 넘김으로 끊을 곳 정의 |
