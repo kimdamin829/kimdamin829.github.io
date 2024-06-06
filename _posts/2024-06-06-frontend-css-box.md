@@ -95,17 +95,17 @@ render_with_liquid: false
 ```
 <br/><br/>
 
-1. 기존 div 이미지
+1. 기존의 content 영역과 border 영역 이미지
 <br/>
-<img src="assets/img/css/origin.png" />
+<img src="assets/img/css/origin.png" align="left"/>
 
-2. style 태그에 padding: 30px;를 추가했을 때
+2. style 태그에 **padding: 30px;**를 추가했을 때
 <br/>
-<img src="assets/img/css/padding.png" />
+<img src="assets/img/css/padding.png" align="left"/>
 
-3. margin: 50px;를 더 추가했을 때
+3. **margin: 50px;**를 추가했을 때
 <br/>
-<img src="assets/img/css/margin.png" />
+<img src="assets/img/css/margin.png" align="left"/>
 
 
 
@@ -125,6 +125,6 @@ render_with_liquid: false
 
 - Inline은 너비와 높이를 가지지 않는다.
 
-- 각 요소는 박수모델(margin, padding, border)을 가진다.
+- 각 요소는 박스 모델(margin, padding, border)을 가진다.
 
 <br/>
