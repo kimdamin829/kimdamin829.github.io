@@ -10,14 +10,10 @@ render_with_liquid: false
 ## Display 속성 중 inline과 block의 차이
 
 - **인라인(inline) 태그**
-: 태그의 내용만큼만 공간을 차지하여 줄 바꿈없이 다음 요소가 배치된다.
-
-: 인라인 태그 안에 블록 태그를 포함할 수 없다.
+: 태그의 내용만큼만 공간을 차지하여 줄 바꿈없이 다음 요소가 배치된다. 인라인 태그 안에 블록 태그를 포함할 수 없다.
 
 - **블록(block) 태그**
-: 한 라인의 공간을 차지하여 기본적으로 너비가 100%이다.
-
-: 블록 태그 안에 인라인 태그와 블록 태그를 포함할 수 있다.
+: 한 라인의 공간을 차지하여 기본적으로 너비가 100%이다. 블록 태그 안에 인라인 태그와 블록 태그를 포함할 수 있다.
 
 <br/>
 
@@ -62,7 +58,7 @@ render_with_liquid: false
 
 ![Desktop View](assets/img/css/boxmodel.png){: width="300" height="250" .w-75 .normal}
 
-html에서 너비와 높이를 갖는 모든 요소들은 테두리 영역과 그 내부의 콘텐츠 영역으로 이루어져 있다.
+* html에서 너비와 높이를 갖는 모든 요소들은 테두리 영역과 그 내부의 콘텐츠 영역으로 이루어져 있다.
 
 - **padding**: 테두리 영역과 콘텐츠 영역 사이의 공간
 
@@ -99,13 +95,16 @@ html에서 너비와 높이를 갖는 모든 요소들은 테두리 영역과 �
 ```
 <br/><br/>
 
-기존 div 이미지
+1. 기존 div 이미지
+<br/>
 <img src="assets/img/css/origin.png" />
 
-style 태그에 padding: 30px;를 추가했을 때
+2. style 태그에 padding: 30px;를 추가했을 때
+<br/>
 <img src="assets/img/css/padding.png" />
 
-margin: 50px;를 더 추가했을 때
+3. margin: 50px;를 더 추가했을 때
+<br/>
 <img src="assets/img/css/margin.png" />
 
 
@@ -115,9 +114,10 @@ margin: 50px;를 더 추가했을 때
 
 <br/>
 
-padding과 margin을 넣으면 상하좌우 모두 영향을 주는데, padding-top, margin-right 등으로 직접 위치를 지정할 수도 있다.
+* padding과 margin을 넣으면 상하좌우 모두 영향을 주는데, padding-top, margin-right 등으로 직접 위치를 지정할 수도 있다.
 <br/>
-다른 방법으로는 padding: 0, 10px, 20px, 30px; 이렇게 작성하면 위에서부터 시계 방향으로 padding의 크기에 영향을 준다.
+
+* 다른 방법으로는 padding: 0, 10px, 20px, 30px; 이렇게 작성하면 위에서부터 시계 방향으로 padding의 크기에 영향을 준다.
 
 <br/><br/>
 
