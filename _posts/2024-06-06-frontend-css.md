@@ -7,7 +7,6 @@ tags: [CSS]
 render_with_liquid: false
 ---
 
-## TEST
 ## CSS 란?
 
 CSS는 색상, 크기, 폰트, 레이아웃 등의 시각적인 부분을 코드로 만들어 HTML을 예쁘게 꾸며주는 역할을 한다.
