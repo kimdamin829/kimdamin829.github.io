@@ -2,8 +2,8 @@
 title: HTML이란? - 웹페이지의 뼈대
 author: Kim Damin
 date: 2024-05-11 00:30:00 +0900
-categories: [Front End, HTML]
-tags: [HTML]
+categories: [Frontend, HTML]
+tags: [Frontend, HTML]
 render_with_liquid: false
 ---
 

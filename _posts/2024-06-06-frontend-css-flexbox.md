@@ -2,8 +2,8 @@
 title: CSS flexbox와 position
 author: Kim Damin
 date: 2024-06-06 17:30:00 +0900
-categories: [Front End, CSS]
-tags: [CSS]
+categories: [Frontend, CSS]
+tags: [Frontend, CSS]
 render_with_liquid: false
 ---
 

@@ -2,8 +2,8 @@
 title: CSS 박스모델
 author: Kim Damin
 date: 2024-06-06 16:30:00 +0900
-categories: [Front End, CSS]
-tags: [CSS]
+categories: [Frontend, CSS]
+tags: [Frontend, CSS]
 render_with_liquid: false
 ---
 
